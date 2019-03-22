@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>MOTORISTA</title>
+    <link rel="stylesheet" type="text/css"href="index.css">
+	<link rel="stylesheet" type="text/css"href="FormularioCSS.css">	
+    <script src="script.js"></script>
+</head>
+<header id="topo">
+			
+            <div id="topoCentro">
+                <div id="logo">
+                    <img src="logo.jpg">
+                </div>
+                
+                <div id="topoOpcoes">
+                    <div class="blocos" id="teste">	<a href="FormularioTeste.html">AREA CLIENTE</a></div>
+                    <div class="blocos">	<a href="motorista.html">AREA MOTORISTA</a></div>
+                    <div class="blocos">	<a href="login.html">LOGIN</a></div>
+                    <div class="blocos">	<a href="consulta.html">CONSULTA</a></div>
+                        
+                </div>
+            </div>
+
+</header>
+<body>
+        <div id="centro">
+
+				<div class="titulo"></div><br>
+				<label for="nome">Nome:</label><br>
+				<input type="text" id="nome" pattern="[a-z\s]+$" required/><br>
+				<br>
+
+
+				<label for="modeloDoCarro">Modelo do Carro:</label><br>
+				<input type="text" id="modeloDoCarro" required/><br>
+                <br>
+                
+                <label for="CPF">CPF:</label><br>
+				<input type="number" id="CPF" required/><br>
+				<br>
+
+				<label for="Data">Data de Nascimento:</label><br>
+				<input type="date" id="data" required/><br>
+				<br>
+
+				<label for="sexo">Sexo:</label><br>
+				<select>
+					<option  value="M">Masculino</option>
+					<option  value="F">Feminino</option>
+                  </select><br>
+                  <br>
+                  
+                  
+                <label for="status">Status:</label><br>
+                <select>
+                    <option  value="True">Ativo</option>
+                    <option  value="False">Inativo</option>
+                </select>
+  
+	
+				<br><br>
+				
+				<a href="#" class="myButton">enviar</a>
+				
+
+
+
+		</div>
+		
+    <footer>
+        <div id="rodape">
+            <div id="redesSociais">
+                <div id="espaco">
+                    <div class="bloco1"><a href="sobre">SOBRE</a></div>
+                    <div class="bloco1"><a href="facebook">FACEBOOK</a></div>
+                    <div class="bloco1"><a href="google">GOOGLE</a></div>
+                    <div class="bloco1"><a href="twiter">TWITER</a></div>
+                </div>
+            </div>
+            <div id="center"><img src="logo.jpg"></div>
+            <div id="final">© COPYRIGHT 2019 - Samuel Soares S.A, Todos os direitos reservados.</div>
+        </div>
+    </footer>
+
+		   
+</body>
+</html>
